@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina AKEC</title>
+    <script src="https://kit.fontawesome.com/88e9d45919.js" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    
+
+</head>
+
+<body>  
+  <header class="header-area">
+    <div class="top-header">
+      <div class="container">
+          <nav>
+            <input type="checkbox" name="" id="check">
+            <div class="logo">
+              <a href="index.html"><i class=" logo-icon fa"></i>Ana Cruz</a>
+            </div>
+
+            <label for="check" class="bars">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+            </label>
+            <ul>
+              <li><a class="active nav-item" href="index.html">Home</a></li>
+              <li><a class="nav-item" href="#about">Acerca de mi</a></li>
+              <li><a class="nav-item" href="#services">Servicios</a></li>
+              <li><a class="nav-item" href="#contact">Contactame</a></li>
+            </ul>
+          </nav>
+      </div>
+    </div>
+
+    <div class="main-header">
+      <div class="overlay">
+        <div class="header-content">
+          <h2 data-aos="fade-left">Hola, soy Ana Karen Escobar Cruz
+            <h1 data-aos="fade-right">
+            <span  class="txt-rotate"
+            data-period="1000"
+            data-rotate='[ "Jr. Análista de datos.","Jr. Java Full Stack Development","Pasante Psicología Clínica.","Risoterapeuta de corazón ♥."]'></span>
+            </h1>
+          </h2>
+          <a href="https://github.com/AnnaCrupz?tab=repositories">
+            <button class="boton portafolio_boton" id="portafolio_boton">Ver portafolio</button>
+          </a>
+           </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-content text-center">
+      <div data-aos="fade-right" class="about-img">
+        <img src="img/MyPhoto.png">
+      </div>
+
+      <div data-aos="fade-left" class="col about-text">
+        <h3>Acerca de mi</h3>
+        <p><h4>¡Hola! 😁</h4> <br>
+          Mi nombre es Ana Karen Escobar Cruz, tengo 22 años y soy de México.
+          Inicié mi preparación académica como técnico en Programación. 
+          Posteriormente incursioné en la Psicologa Clínica y durante el trayecto me di cuenta 
+          que las carreras en humanidades no están peleadas con los avances tecnológicos. 
+          Mi meta es convertirme en <strong>Cientifica de datos con enfoque en el estudio del comportamiento humano.</strong>
+        </p>
+        <a href="https://drive.google.com/file/d/1T9hj6dscjxD4_UwAEunAVm1fLVUvMO12/view?usp=sharing">
+        <button data-aos="fade-right" class="boton">Descargar Curriculum Vitae <i class="fa-sharp fa-solid fa-arrow-down"></i></button>
+      </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+  
+
+
+<section class="service-section my-5" id="services">
+  <div class="container my-5">
+    <div class="services-content">
+      <h3 data-aos="fade-left" >Servicios</h3>
+      <p data-aos="fade-right" >Mis servicios profesionales:
+      <div class="services-box">
+        <div data-aos="fade-right" class="service-box">
+          <i class="fa fa-globe icon"></i>
+          <h4>Desarrollo web</h4>
+          <p>Programación Backend Java.</p>
+        </div>
+        <div data-aos="fade-left" class="service-box">
+          <i class="fa fa-rocket icon"></i>
+          <h4>Diseño Web</h4>
+          <p>Diseño de página web y diseño responsivo. CSS, JavaScript, Figma y Bootstrap 5</p>
+        </div>
+        <div data-aos="fade-up" class="service-box">
+          <i class="fa-solid fa-mobile-button icon"></i>
+          <h4>Análisis de datos</h4>
+          <p style="font-size: .75rem;"> Transformación de datos para la toma estratégica de decisiones. Manejo de: SQL, Microsoft Office Excel, Power Bi y Tableau.
+             </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="contact-form" id="contact">
+  <div class="container mt-5">
+    <div class="contact-area">
+     <div data-aos="fade-down" class="image">
+       <h2>¡Contactame!</h2>
+       <p>Ponte en contacto conmigo, llena el siguiente formulario:</p>
+       <img src="img/contact.png">
+     </div>
+      <div data-aos="fade-up" class="form-area">
+        <form action="https://formsubmit.co/escobar.anakaren13@gmail.com" method="POST">
+          <input type="text" name="nombre" placeholder="Tu nombre" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="asunto" placeholder="Asunto" required>
+          <textarea type="text" name="mensaje" placeholder="Mensaje" style="color:black"></textarea> <br>
+          <button class="p_boton boton" id="subm" type="submit">Enviar</button>
+          <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+        </form>
+
+      </div> 
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer-area">
+  <div class="container">
+    <div class="contentArea">
+
+      <div class="socialLinks">
+        <h3>Sigueme en redes sociales</h3>
+        <a href="https://www.facebook.com/anna.crupz/"><img src="img/facebook-icon.png"></a>
+        <a href="https://www.instagram.com/annacrupz/"><img src="img/instagram-icon.png"></a>
+        <a href="https://twitter.com/karen13022000"><img src="img/twitter-icon.png"></a>
+        <a href="https://www.linkedin.com/in/ana-escobar2121/"><img src="img/linkedin-icon.png"></a>
+        <a href="https://wa.me/5539825971"><img src="img/whatsapp-icon.png"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
