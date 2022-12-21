@@ -127,7 +127,7 @@ nav .bars .line{
 .main-header{
     width:100%;
     height:90vh;
-    background-image:url('/img/shape4.jpg');
+    background-image:url('../img/shape4.jpg');
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -242,7 +242,7 @@ nav .bars .line{
 }
 
 .service-section{
-    background-image:url('/img/shape2.jpg');
+    background-image:url('../img/shape2.jpg');
     background-size:cover;
     background-position:center;
     width:100%;
