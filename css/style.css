@@ -1,10 +1,10 @@
 :root{
     --color1:#2E122D;
-    --color2:#530332;
-    --color3:#800834;
+    --color2:#A6C0FE;
+    --color3:#F68084;
     --color4:#C72B41;
-    --COLOR5:#EE4540;
-    --color6: #fb7e7a;
+    --COLOR5:#ffc976;
+    --color6: #ff5778;
     --color7: #863f5992;
 }
 *{
@@ -33,8 +33,19 @@ li{
 .overlay{
     width:100%;
     height:100%;
-    background:rgba(0,0,0,.7);
 }
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+    text-align: center;
+    color: var(--COLOR5);
+  }
+  
+  .seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+  }
 .p_boton{
     position: absolute;
     top:180px;
@@ -48,9 +59,12 @@ li{
     
 }
 
+
 .top-header{
     box-shadow:0 5px 2px -2px rgba(0,0,0,.2);
 }
+
+
 
 nav{
     width:100%;
@@ -193,6 +207,8 @@ nav .bars .line{
 
 .about-img img{
     height:100%;
+    border-radius: 60%;
+    border: 5px solid var(--color2);
 }
 
 .about-text{
@@ -336,19 +352,84 @@ nav .bars .line{
 }
 
 
+/* Proyectos */
+
+.proyectos-recientes {
+    padding: 40px;
+  }
+  
+  .proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+  
+  .proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .proyecto .overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .proyecto {
+    position: relative;
+  }
+  
+  .proyecto:hover img {
+    opacity: 0.2;
+  }
+  
+  .proyecto:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay .iconos-contenedor {
+    display: flex;
+  }
+  
+  .overlay i {
+    color: rgb(9, 9, 9);
+    font-size: 60px;
+    margin: 10px;
+  }
+
+  
+  /*Contact*/
 .contact-form{
     width:100%;
     height:460px;
-
+    background-image: linear-gradient(rgba(255, 255, 255, 0.852) 60%,var(--color6) );
 }
 .contact-form .contact-area{
     width:100%;
     height:460px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding:5px;
+    border:2px solid #fbf9f9;
+    
+}
 
+.contact-area{
+    background-color: #6f45e273;
 }
 
 .contact-area .image{
@@ -422,9 +503,8 @@ nav .bars .line{
 
 .footer-area{
     width:100%;
-    height:210px;
-    background-image:url('../img/shape1.jpg');
-    opacity: .75;
+    height: 110%;
+    background-color: var(--color6);
     background-position:center;
     background-size:cover;
 }
